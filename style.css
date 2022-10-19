@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(assets/image-hero-desktop.png);
+    background-position-x: 784px;
+    background-position-y: -146.13px;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    
+    background: #F2F2F2;
+    font-family: 'Plus Jakarta Sans';
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+.header{
+    width: 100%;
+    height: 81px;
+    display: flex;
+}
+
+.logo-dark{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 45px;
+    color: #13183F;
+    padding-top: 29px;
+    padding-left: 165px;
+
+}
+
+.start, .started{
+    height: 56px;
+    width: 167px;
+    border-radius: 28px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #FFFFFF;
+    
+    cursor: pointer;
+}
+.start{
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    margin-left: 1108px;
+    margin-top: 32px;
+}
+.start:hover {
+    opacity: 1.0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+.started{
+    background: #13183F;
+    margin-top: 24px;
+    margin-left: 829px;
+}
+.started:hover {
+    opacity: 1.0;
+    background: #666CA3;
+}
+
+
+.maximize{
+    height: 143px;
+    width: 457px;
+   
+}
+h1{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+    color: #13183F;
+    height: 143px;
+    top: calc(50% - 143px/2 - 108px);
+    margin-top: 178px;
+    margin-left: 165px;
+    width: 457px;
+    height: 143px;
+}
+.images{
+    position: absolute;
+    width: 991.63px;
+    height: 936.92px;
+    left: 784px;
+    top: -146.13px;
+    overflow-x: hidden;
+ }
+.image-desktop{
+    display: block;
+    position: relative;
+}
+
+.first-text{
+    height: 84px;
+    width: 445px;
+    border-radius: nullpx;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #83869A;
+    margin-top: 29px;
+    margin-left: 165px;
+}
+.second-started{
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+
+    height: 56px;
+    width: 167px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    margin-top: 40px;
+    margin-left: 165px;
+    margin-bottom: 226px;
+    cursor: pointer;
+}
+.second-started:hover {
+    opacity: 1.0;
+   color:  #FFFFFF80;
+   background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+.container{
+    height: 888px;
+    width: 100%;
+    top: 837px;
+    border-radius: 0px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    display: flex;
+    flex-wrap: wrap;
+}
+.check{
+    height: 322px;
+    width: 350px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    align-items: center;
+    margin-top: 24px;
+    margin-left: 165px;
+}
+.check-text{
+    height: 120px;
+    width: 286px;
+    border-radius: nullpx;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding-top: 64px;
+    padding-left: 32px;
+}
+.animation{
+    margin-left: 30px;
+    margin-top: 24px;
+}
+
+
+.design{
+    margin-top: 24px;
+    margin-left: 30px;
+}
+.photography{
+    margin-top: 30px;
+    margin-left: 165px;
+}
+
+.crypto, .business{
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.photography, .crypto, .business, .design, .animation{
+    width: 350px;
+    height: 322px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+}
+.title-photography, .title-crypto, .title-business, .title-animation, .title-design{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #13183F;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+.text-photography-div, .text-crypto-div, .text-animation-div, .text-design-div, .text-business-div{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    height: 112px;
+    padding: 24px 32px 24px 32px;
+}
+
+.third-started, .sixth-started, .seventh-started{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+    padding-left: 32px;
+    padding-top: 48px;
+}
+.icon-animation, .icon-photography, .icon-crypto, .icon-design, .icon-business{
+    width: 56px;
+    height: 56px; 
+    margin-top: -24px;
+    margin-left: 32px;  
+}
+.fourth-started, .fifth-started{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+    padding-left: 32px;
+    padding-top: 52px;
+}
+.footer{
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background: #13183F;
+    margin-top: 140px;
+}
+
+
+.light{
+    position: relative;
+    margin-top: -46.75px;
+    margin-left: 165.79px;
+}
+.dark{
+    position: absolute;
+    width: 111.17px;
+    height: 27.68px;
+}
+
+@media screen and (max-width: 768px){
+    .image-desktop{
+        display: none;
+    }
+    .image-mobile{
+        display: none;
+    }
+    .image-tablet{
+        display: none;
+    }
+    body{
+        background-image: url(assets/image-hero-tablet.png);
+        background-position-x: 350px;
+        background-position-y: -92.13px;
+        background-repeat: no-repeat;
+        background-size: 100%; 
+    }
+    .dark{
+        height: 35px;
+        width: 89px;
+    }
+    .light{
+        margin-top: -43px;
+        margin-left: 40px;
+    }
+    .logo-dark{
+        font-size: 28px;
+        padding-top: 31px;
+        padding-left: 39px;
+    }
+    .start, .started{
+        font-size: 16px;
+        height: 48px;
+        width: 140px;
+        margin-top: 24px;
+        
+    }
+    .start{
+        margin-left: 588px;
+    }
+    .started{
+        margin-left: 460px;
+    }
+    .maximize{
+        height: 101px;
+        width: 326px;
+
+    }
+    h1{
+        font-size: 40px;
+        line-height: 50px;  
+        margin-top: 105px;
+        margin-left: 39px;
+    }
+    .first-text{
+        height: 78px;
+        width: 398px;
+        font-size: 16px;
+        line-height: 26px;
+        margin-left: 39px;
+        margin-top: 25px;
+    }
+    .second-started{
+        font-size: 16px;
+        margin-top: 24px;
+        margin-left: 39px;
+        margin-bottom: 210px;
+    }
+    .fourth-started, .fifth-started{
+        padding-left: 32px;
+        padding-top: 24px;
+    }
+    .container{
+        width: 100%;
+        height: 999px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    }
+    .check{
+        height: 259px;
+        width: 339px;
+        border-radius: 10px;
+        margin-top: 24px;
+        margin-left: 39px;
+
+    }
+    .photography, .crypto, .business, .design, .animation{
+        height: 259px;
+        width: 339px;
+        border-radius: 10px;
+    }
+    .animation{
+        margin-top: 24px;
+        margin-left: 10px;
+    }
+    .photography, .business{
+        margin-top: 56px;
+        margin-left: 11px;
+    }
+    .design, .crypto{
+        margin-left: 39px;
+        margin-top: 56px;
+    }
+    .title-photography, .title-crypto, .title-business, .title-animation, .title-design, .title-animation{
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+        color: #13183F;
+        padding-top: 24px;
+        padding-left: 32px;
+    }
+    
+    .text-business-div, .text-animation-div, .text-crypto-div, .text-photography-div, .text-design-div{
+        font-size: 16px;
+        line-height: 26px;
+        height: 78px;
+        padding: 16px 21px 24px 32px;
+
+    }
+
+}
+@media screen and (max-width: 500px){
+
+    .image-desktop{
+        display: none;
+    }
+    .image-tablet{
+        display: none;
+    }
+    
+    body{
+        background-image: url(assets/image-hero-mobile.png);
+        background-position: center;
+        background-position-y: 433px;
+        background-repeat: no-repeat;
+        background-size: 100%; 
+    }
+    .icon-animation, .icon-business, .icon-crypto,.icon-design,.icon-photography{
+        margin-top: -12px;
+        margin-left: 28px; 
+    }
+    .dark{
+        height: 35px;
+        width: 89px;
+    }
+   
+    .light{
+        margin-top: -43px;
+        margin-left: 40px;
+    }
+    .logo-dark{
+        font-size: 28px;
+        padding-top: 22px;
+        padding-left: 16px;
+    }
+    .start, .started{
+        font-size: 16px;
+        height: 48px;
+        width: 140px;
+    }
+    .start{
+        margin-left: 219px;
+        margin-top: 36px;
+    }
+    .started{
+        margin-top: 16px; 
+        margin-right: 16px;
+    }
+    .maximize{
+        height: 101px;
+        width: 343px;
+
+    }
+    h1{
+        font-size: 40px;
+        line-height: 50px;  
+        margin-top: 45px;
+        margin-left: 16px;
+    }
+    .first-text{
+        height: 78px;
+        width: 343px;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 26px 16px 24px 16px;
+    }
+    .second-started{
+        font-size: 16px;
+        margin-top: 24px;
+        margin-left: 16px;
+        margin-bottom: 70px;
+    }
+    .fourth-started, .fifth-started, .third-started, .seventh-started, .sixth-started{
+        padding: 24px 211px 32px 28px;
+    
+    }
+    .container{
+        margin-top: 428px;
+        width: 100%;
+        height: 1695px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+        justify-content: center;
+    }
+    .check{
+        height: 120px;
+        border-radius: 10px;
+        margin-left: 16px;
+    }
+    .check-text{
+        font-size: 24px;
+        line-height: 32px;
+        padding-top: 24px;
+        padding-left: 28px;
+    }
+    .photography, .crypto, .business, .design, .animation{
+        height: 259px;
+        width: 343px;
+        border-radius: 10px;
+    }
+    
+    .photography, .business, .animation, .design,.crypto {
+        margin-top: 40px;
+        margin-left: 16px;
+    }
+    .title-photography, .title-crypto, .title-business, .title-animation, .title-design, .title-animation{
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+        color: #13183F;
+        padding-top: 24px;
+        padding-left: 28px;
+    }
+    
+    .text-business-div, .text-animation-div, .text-crypto-div, .text-photography-div, .text-design-div{
+        font-size: 16px;
+        line-height: 26px;
+        height: 78px;
+        padding: 16px 29px 24px 28px;
+
+    }
+    
+}
